@@ -19,7 +19,8 @@ html, body, #cesiumContainer {
 }
 
 h4 {
-    font-family:  Lobster, cursive;
+    font-family:  'Open Sans', cursive;
+    line-height: 24px;
     font-size: larger;
 }
 
