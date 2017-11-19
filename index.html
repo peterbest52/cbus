@@ -75,7 +75,7 @@
 
             for (var i = 0; i < p.length; i++) {
                 p[i].polygon.material = Cesium.Color.fromCssColorString(setColor(p[i].properties.avg_calories));
-                p[i].polygon.extrudedHeight = p[i].properties.avg_calories * p[i].properties.avg_calories * 0.004 ;
+                p[i].polygon.extrudedHeight = p[i].properties.avg_calories * p[i].properties.avg_calories * 0.0004 ;
                 p[i].polygon.outline = false;
             }
             viewer.dataSources.add(dataSource);
